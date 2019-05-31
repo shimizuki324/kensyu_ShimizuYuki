@@ -1,0 +1,178 @@
+@charset "UTF-8";
+
+body {
+    width: 100%;
+    margin: auto;
+    font-family: 'Lato', "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", sans-serif;
+    }
+
+p{
+    line-height: 1.9em;
+}
+
+.heading{
+    text-align: center;
+    margin-bottom: 65px;
+    font-size: 50px;
+    font-weight: 100;
+    color: #505050;
+}
+
+.contents{
+    padding: 65px 0px;
+}
+
+.contents-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+    max-width: 960px;
+}
+
+.header{
+    position: relative;
+    height: 270px;
+    width: 960px;
+    margin: 0 auto;
+}
+
+.title{
+    font-weight: 900;
+    font-size: 30px;
+    color: #505050;
+    width: 960px;
+    margin: auto;
+    padding-top: 13%;
+}
+
+.global-nav{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.nav-item{
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.nav-item a{
+    color: #505050;
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.back-img{
+    background: url('../images/img_kv.jpg');
+    background-size: cover;
+    height: 420px;
+    margin: 15px 0px;
+    text-indent: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.service-item{
+    text-align: center;
+    margin: 0px 40px;
+    color: #505050;
+}
+
+.service-title1{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.service-title2{
+    font-size: 13px;
+    margin-top: 12px;
+    font-weight: 400;
+}
+
+.service-img{
+    margin-top: 40px;
+    height: 64px;
+    width: 64px;
+}
+
+.service-description{
+    font-size: 14px;
+    margin-top: 40px;
+    font-weight: normal;
+}
+
+#about{
+    background-color: #ECEBEB;
+    background-size: cover;
+}
+
+.about-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: auto;
+    max-width: 960px;
+}
+
+.about-img{
+    height: 292px;
+    width: 292px;
+    margin-right: 40px;
+    object-fit: cover;
+}
+
+.about-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: #505050;
+}
+
+.about-description{
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 30px;
+    color: #505050;
+}
+
+.after-description{
+    margin-top: 30px;
+}
+
+.topics-wrapper{
+    width: 292px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+
+.topics-img{
+    height: 292px;
+    width: 292px;
+    border: 1px;
+    border-style: solid;
+    border-color: #E0E0E0;
+    object-fit: cover;
+}
+
+.topics-title{
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #505050;
+}
+
+.topics-description{
+    font-size: 14px;
+    font-weight: normal;
+    color: #505050;
+}
+
+.footer{
+    text-align: right;
+    font-weight: 400;
+    font-size: 14px;
+    color: #E0E0E0;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+
+
